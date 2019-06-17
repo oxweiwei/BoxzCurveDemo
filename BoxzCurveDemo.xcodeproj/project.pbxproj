@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F9476E821EF10CB00A8CFC5 /* BesselVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9476E221EF10CB00A8CFC5 /* BesselVC.m */; };
+		1F9476E921EF10CB00A8CFC5 /* BesselView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9476E421EF10CB00A8CFC5 /* BesselView.m */; };
+		1F9476EA21EF10CB00A8CFC5 /* WifiLinkVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9476E721EF10CB00A8CFC5 /* WifiLinkVC.m */; };
+		1F9476EE21EF12AB00A8CFC5 /* PublicVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9476ED21EF12AB00A8CFC5 /* PublicVC.m */; };
 		1FC2715021E72201003E870D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC2714F21E72201003E870D /* AppDelegate.m */; };
 		1FC2715321E72201003E870D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC2715221E72201003E870D /* ViewController.m */; };
 		1FC2715621E72201003E870D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FC2715421E72201003E870D /* Main.storyboard */; };
@@ -35,6 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F9476E121EF10CB00A8CFC5 /* BesselVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BesselVC.h; sourceTree = "<group>"; };
+		1F9476E221EF10CB00A8CFC5 /* BesselVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BesselVC.m; sourceTree = "<group>"; };
+		1F9476E321EF10CB00A8CFC5 /* BesselView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BesselView.h; sourceTree = "<group>"; };
+		1F9476E421EF10CB00A8CFC5 /* BesselView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BesselView.m; sourceTree = "<group>"; };
+		1F9476E621EF10CB00A8CFC5 /* WifiLinkVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WifiLinkVC.h; sourceTree = "<group>"; };
+		1F9476E721EF10CB00A8CFC5 /* WifiLinkVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WifiLinkVC.m; sourceTree = "<group>"; };
+		1F9476EC21EF12AB00A8CFC5 /* PublicVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicVC.h; sourceTree = "<group>"; };
+		1F9476ED21EF12AB00A8CFC5 /* PublicVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublicVC.m; sourceTree = "<group>"; };
 		1FC2714B21E72200003E870D /* BoxzCurveDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoxzCurveDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FC2714E21E72201003E870D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1FC2714F21E72201003E870D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -78,6 +90,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F9476E021EF10CB00A8CFC5 /* BesselVC */ = {
+			isa = PBXGroup;
+			children = (
+				1F9476E121EF10CB00A8CFC5 /* BesselVC.h */,
+				1F9476E221EF10CB00A8CFC5 /* BesselVC.m */,
+				1F9476E321EF10CB00A8CFC5 /* BesselView.h */,
+				1F9476E421EF10CB00A8CFC5 /* BesselView.m */,
+			);
+			path = BesselVC;
+			sourceTree = "<group>";
+		};
+		1F9476E521EF10CB00A8CFC5 /* WifiLinkVC */ = {
+			isa = PBXGroup;
+			children = (
+				1F9476E621EF10CB00A8CFC5 /* WifiLinkVC.h */,
+				1F9476E721EF10CB00A8CFC5 /* WifiLinkVC.m */,
+			);
+			path = WifiLinkVC;
+			sourceTree = "<group>";
+		};
+		1F9476EB21EF12AB00A8CFC5 /* PublicVC */ = {
+			isa = PBXGroup;
+			children = (
+				1F9476EC21EF12AB00A8CFC5 /* PublicVC.h */,
+				1F9476ED21EF12AB00A8CFC5 /* PublicVC.m */,
+			);
+			path = PublicVC;
+			sourceTree = "<group>";
+		};
 		1FC2714221E72200003E870D = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +146,9 @@
 				1FC2714F21E72201003E870D /* AppDelegate.m */,
 				1FC2715121E72201003E870D /* ViewController.h */,
 				1FC2715221E72201003E870D /* ViewController.m */,
+				1F9476E021EF10CB00A8CFC5 /* BesselVC */,
+				1F9476E521EF10CB00A8CFC5 /* WifiLinkVC */,
+				1F9476EB21EF12AB00A8CFC5 /* PublicVC */,
 				1FC2715421E72201003E870D /* Main.storyboard */,
 				1FC2715721E7220C003E870D /* Assets.xcassets */,
 				1FC2715921E7220C003E870D /* LaunchScreen.storyboard */,
@@ -262,9 +306,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F9476EA21EF10CB00A8CFC5 /* WifiLinkVC.m in Sources */,
 				1FC2715321E72201003E870D /* ViewController.m in Sources */,
 				1FC2715E21E7220C003E870D /* main.m in Sources */,
+				1F9476E821EF10CB00A8CFC5 /* BesselVC.m in Sources */,
+				1F9476EE21EF12AB00A8CFC5 /* PublicVC.m in Sources */,
 				1FC2715021E72201003E870D /* AppDelegate.m in Sources */,
+				1F9476E921EF10CB00A8CFC5 /* BesselView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,8 +484,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UHM263SFX9;
+				DEVELOPMENT_TEAM = 6R7A424Q3L;
 				INFOPLIST_FILE = BoxzCurveDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,8 +502,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UHM263SFX9;
+				DEVELOPMENT_TEAM = 6R7A424Q3L;
 				INFOPLIST_FILE = BoxzCurveDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
